@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: white;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding: 8px;
+}
+
+a {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #253237;
+}
+
+a:hover {
+  background-color: whitesmoke;
+  border-radius: 4px;
+}
+
+.active {
+  color: #0075F2;
+}
